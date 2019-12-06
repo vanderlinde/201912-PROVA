@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PROVA.View.testeQuemSou">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            <Label Text="QUEM SOU"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"
+                   FontSize="40"
+                   TextColor="White"/>
+            <Label Text="Esper me tornar um profissional na área de programação com muita capacidade para executar tarefas desafiadoras e que possa ajudar a comunidade a crescer cada dia mais."
+            HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   FontSize="15"
+                   TextColor="white"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

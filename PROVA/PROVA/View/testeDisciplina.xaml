@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="PROVA.View.testeDisciplina">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Disciplina" TextColor="Red"/>
+
+            <StackLayout>
+                <ListView >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.View>
+                                    <StackLayout>
+                                        <StackLayout >
+                                            <Label Text="Programação para Dispositivos Móveis" TextColor="Red"></Label>
+                                            <Label Text="Tópicos Avançados em Desenvolvimento de Sistemas" TextColor="Red"></Label>
+                                            <Label Text="Projeto Interdisicplinar III" TextColor="Red"></Label>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </ViewCell.View>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
